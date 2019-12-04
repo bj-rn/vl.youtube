@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="DaPF5DNH7edPdrtGANbS9A" LanguageVersion="2019.1.0-0578-g52ebaf9cfd" Version="0.128">
+<Document xmlns:p="property" Id="DaPF5DNH7edPdrtGANbS9A" LanguageVersion="2019.1.0-0975-gbe94390fc5" Version="0.128">
   <NugetDependency Id="L61XUPxDbJbP873DsvMIh1" Location="VL.CoreLib" Version="2019.1.0-116" />
   <Patch Id="K7x3FOoZZVZOsQln1klO3m">
     <Canvas Id="Oga9iHkPLNGQdLwiUXlLBS" DefaultCategory="Youtube" CanvasType="FullCategory">
@@ -4112,12 +4112,6 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="TBzOGGUC7OLP5VgpnfKrOS" SlotId="FHvGISXwGKXL0FRw3n995y" Bounds="-195,285">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="Tmp" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
               <Pad Id="CimfVU8KRqgM61NS5sc6G9" Comment="" Bounds="-162,288,34,15" ShowValueBox="true" isIOBox="true" Value="foo">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -4150,6 +4144,9 @@
               </Node>
               <ControlPoint Id="J50tdOpRwOYLOf9I6FxQKy" Bounds="360,1217" />
               <ControlPoint Id="OWO9K2bRn21L0X3i6AzQm9" Bounds="-80,648" />
+              <Pad Id="BmuzY2QtgBvLXa2tbjKawu" SlotId="FHvGISXwGKXL0FRw3n995y" Bounds="-195,265">
+                <p:ValueBoxSettings />
+              </Pad>
             </Canvas>
             <Patch Id="B0aCP12Ses8MkB1nloQtjj" Name="Create" ParticipatingElements="PDB457lP9nqLF4lBOMN49V" />
             <Patch Id="Kfy7U3bkNL9LbrnthzDYJD" Name="Update">
@@ -4204,7 +4201,6 @@
             <Link Id="VF3iE36rgeYMSPEEYPQNWg" Ids="NEcB9sxmWPnMnR6pBAEN7E,TV8P4hgMjC5OI4Z0sYGNpT" />
             <Link Id="LDxNOYZKlWaONAkCd8Vhcp" Ids="IrmC360XdsdO6xXSdUBiEX,BUh0FSPKzolNvXYoY2bYeE" />
             <Link Id="I0VPNPtq51qOU7K72xdboE" Ids="Pm7etglCeJoPnqke0wxxNy,Pot7nE5PNynLrfvbDRCt0c" />
-            <Link Id="CPQQj0AXAwjOKzzSML2KnN" Ids="TBzOGGUC7OLP5VgpnfKrOS,NuJ751ZztSbMo0YcM1PVUl" />
             <Link Id="MMEAJBSAqBbLRv7TtB6ssZ" Ids="CimfVU8KRqgM61NS5sc6G9,TvTK2l3qtbCQARwxks5Lsw" />
             <Link Id="NkO6Q8yRlKuMrncGDSiTAR" Ids="M6tbNUMDh9UQZDAcWFsGPh,Q6mo1ssHwJXLetJzk3frtx" />
             <Slot Id="FHvGISXwGKXL0FRw3n995y" Name="Id">
@@ -4231,6 +4227,7 @@
             <Link Id="ALk0PpWNUmmPD811d82ljp" Ids="QEDaeRgjV0bPg7BH5kCvRp,J50tdOpRwOYLOf9I6FxQKy" />
             <Link Id="GILrmRyVT8YOZShst8HIJ2" Ids="AfbOHj4rPCIN90Nrg8jInU,Abx33Tgv79nO9mQVjMUTrB" />
             <Link Id="Hd2vN9xSWaHQOj6HKg8LGW" Ids="M36PTGiyFIsQVm7CQnHsPR,B2yAAromrK6OcWuFkzNW2h" />
+            <Link Id="HbqKflitXtsMixGVcHoP6N" Ids="BmuzY2QtgBvLXa2tbjKawu,NuJ751ZztSbMo0YcM1PVUl" />
           </Patch>
         </Node>
         <Pad Id="OKmdShHPq42NR5nTBiTWuj" Bounds="207,-67,477,20" ShowValueBox="true" isIOBox="true" Value="https://developers.google.com/youtube/v3/docs/videos">
@@ -13613,12 +13610,6 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="GrM7bgs1QoELafn1XwlSKm" SlotId="FtlhDGBPr3sPVPJnHEcElI" Bounds="104,642">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="Tmp" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
               <Pad Id="BvyQ28DBV0vMU5l9G88V1g" Comment="" Bounds="137,645,34,15" ShowValueBox="true" isIOBox="true" Value="foo">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -13650,6 +13641,9 @@
                 <Pin Id="LlY0xJvxcBNNkwxUh1db4p" Name="Result" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="PnH2OetUStkLT0Rt9Qzw9G" Bounds="678,1523" />
+              <Pad Id="N1ekUiyBT2JOd0imEwj9T8" SlotId="FtlhDGBPr3sPVPJnHEcElI" Bounds="104,648">
+                <p:ValueBoxSettings />
+              </Pad>
             </Canvas>
             <Patch Id="F7SifQUH5bQO6EyVtqhRpw" Name="Create" ParticipatingElements="EyzG4mkNTo4NA54fldhk2M" />
             <Patch Id="S1ORkwvB1IVPOLjBGOnPEV" Name="Update">
@@ -13715,7 +13709,6 @@
                 <CategoryReference Kind="Category" Name="Youtube" NeedsToBeDirectParent="true" />
               </p:TypeAnnotation>
             </Slot>
-            <Link Id="LuUNoWkp10gMk719A104et" Ids="GrM7bgs1QoELafn1XwlSKm,JmDxqcAdXiZNHi8nfNxAvG" />
             <Link Id="NXrc4XG4iYsPokk3ONvMEe" Ids="BvyQ28DBV0vMU5l9G88V1g,Q8fLx3oHLxZNVAbNm0K2E6" />
             <Link Id="EmYQmNgM4gtM3gXoGpXIJD" Ids="BWyD3Kqhu9xOlLfJJXsHXG,JVVvAOKFGk7OTFRDRyHtUe" />
             <Link Id="P5vUv14OGxmPJCRgnrq4oD" Ids="JVVvAOKFGk7OTFRDRyHtUe,CVemwNUrTPUOaKlUjSRA9e" />
@@ -13731,6 +13724,7 @@
             <Link Id="UT3UpvvCrFnMNvO60vc94y" Ids="FowpozOg6FpLfHuigghc77,BHhh44wdTBhLYBzd3Ijq4w" IsHidden="true" />
             <Link Id="Mc9cm2tMZ0WOEDXwcQzmBc" Ids="JfjftsMPXeaN3a4qsbpQHg,B5nL5R3CRlJPNemB5eonQB" />
             <Link Id="V1amDEPBlKaQYX9ItRgYyW" Ids="PArnSZJCKLVLQLuyuNvmyd,Dz0nWFKxldxOR4HXkXmfY0" />
+            <Link Id="MYvzUkERBztN16i9StzRjK" Ids="N1ekUiyBT2JOd0imEwj9T8,JmDxqcAdXiZNHi8nfNxAvG" />
           </Patch>
         </Node>
         <!--
@@ -14702,12 +14696,6 @@
                 <Pin Id="BFVv4P1iaIPL6PqWgd5mFh" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="NWDJ9sxAC1fLzzlsvEenDN" Name="Result" Kind="OutputPin" />
               </Node>
-              <Pad Id="L3F52c1DQupMpg5rGK3r28" SlotId="GWI5LQRM7OMLBGcpoOyCv5" Bounds="-12,963">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="Tmp" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
               <Pad Id="LX1qlmFxraPLjfVqcCjEYW" Comment="" Bounds="21,966,34,15" ShowValueBox="true" isIOBox="true" Value="foo">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -14727,6 +14715,9 @@
                 <p:ValueBoxSettings />
               </Pad>
               <ControlPoint Id="L3XldBctk0jLluxLEU2h2S" Bounds="666,1936" />
+              <Pad Id="AuVoNVOHOgEMm0N2FISE95" SlotId="GWI5LQRM7OMLBGcpoOyCv5" Bounds="-12,966">
+                <p:ValueBoxSettings />
+              </Pad>
             </Canvas>
             <Patch Id="VoVp6SuIliTMRV9lTvZ5Ti" Name="Create" ParticipatingElements="OzkZT3jf9PbPRcsdKRoZIK" />
             <Patch Id="BDLx64eie55Ox9oLeDk9z6" Name="Update">
@@ -14800,7 +14791,6 @@
                 <CategoryReference Kind="Category" Name="Youtube" NeedsToBeDirectParent="true" />
               </p:TypeAnnotation>
             </Slot>
-            <Link Id="H7VGUKLAiuvQcpEhWBSqN2" Ids="L3F52c1DQupMpg5rGK3r28,V2voGqOXPG3N0bsMM2lWlD" />
             <Link Id="R4VHkQkr8UcOjrxs0aceMl" Ids="LX1qlmFxraPLjfVqcCjEYW,S9yJmJYPtwOPXcaezqHjth" />
             <Link Id="PNpwE8IvgFKLiFNEEtwvdE" Ids="DLrgOKrhmPeQXZ0lw6dPDl,KWlqyWEwZJ2NdLyMRXsI6K" />
             <Link Id="EpsW9mM9KPnOYPO1RmZUVX" Ids="KWlqyWEwZJ2NdLyMRXsI6K,CNuWm1g1uqsOvm9NS2tGPW" />
@@ -14808,6 +14798,7 @@
             <Link Id="VpmtDs68A49Oc97F6vENXq" Ids="NWDJ9sxAC1fLzzlsvEenDN,L3XldBctk0jLluxLEU2h2S" />
             <Link Id="UuUGysv7hXYNdFTWcJRGmn" Ids="L3XldBctk0jLluxLEU2h2S,OrtwuMX2pkpPbcb8nPOyxi" IsHidden="true" />
             <Link Id="B9daGAsIG2iPDmrlj3QkbI" Ids="Dr0SsogkVATPkXVa5kdR2N,G8KA51jFhEmMCqD4PPOsIZ" />
+            <Link Id="MuVy0zSJaWQMqiHFlWgmVk" Ids="AuVoNVOHOgEMm0N2FISE95,V2voGqOXPG3N0bsMM2lWlD" />
           </Patch>
         </Node>
         <!--
@@ -23458,12 +23449,6 @@
                 </p:ValueBoxSettings>
               </Pad>
               <ControlPoint Id="Kh8NGIk9fGEPAFkFae5nHt" Bounds="345,603" />
-              <Pad Id="CW7rDLSsdd1NZfnDLOKhCK" SlotId="DPJw0dYszlLMZuRkBobKqO" Bounds="158,568">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="Tmp" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
               <Pad Id="BrMbcXi1b0kPgTm6EUZQaf" Comment="" Bounds="191,571,34,15" ShowValueBox="true" isIOBox="true" Value="foo">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -23494,6 +23479,9 @@
                 <p:ValueBoxSettings />
               </Pad>
               <ControlPoint Id="Lil2t9BOBMbOPYj69DEMQn" Bounds="268,874" />
+              <Pad Id="Sx4NoOU96qiPODZDZnh2DX" SlotId="DPJw0dYszlLMZuRkBobKqO" Bounds="158,571">
+                <p:ValueBoxSettings />
+              </Pad>
             </Canvas>
             <Patch Id="PMKW6ILARDWNBwj07Nmitm" Name="Create" ParticipatingElements="VnRNFvxwgmiLpYkFinA8ow" />
             <Patch Id="Vv3XCB800OPL2TVQl4mfKC" Name="Update">
@@ -23557,7 +23545,6 @@
             <Link Id="RJWvVHrudLPMXAwiAe2HWl" Ids="B8ldoWkhX5qNMwb65vxoVO,L4kNpYoFAI6LoLyf3XOSuy" />
             <Link Id="Vw0D32Jf8RfL3iRp7dOwkG" Ids="HLrVvFFLd2jLlRtby39QVk,NSzhajPawgHMgbpqUibH8R" />
             <Link Id="OgZG5EQRar4L6XNqA7Wph7" Ids="RsrhD5VIVHROLYyADbrZdz,BMW3xcVnRTQMzbRKVr0Zx9" />
-            <Link Id="HvpqD7TlRwDLR0A8UrJPvy" Ids="CW7rDLSsdd1NZfnDLOKhCK,FXoLuiSd4rDQYr1FcOvlHg" />
             <Link Id="EaGJSrLpHRDPkl4LqL2VHT" Ids="BrMbcXi1b0kPgTm6EUZQaf,LYKtez0IMe1P7bcc6sQHTQ" />
             <Link Id="UApbi3tTdzcNTZdYPG7TLW" Ids="G7b85jYZcNWNlRcxVRUEgi,OdsZMc3PAeSPgDlVU8APri" />
             <Link Id="KigRT9AEI8eLNCdxoP7n8K" Ids="OdsZMc3PAeSPgDlVU8APri,Lil2t9BOBMbOPYj69DEMQn,Kra2UWLQTfJNJHIOBIgc6n" />
@@ -23572,6 +23559,7 @@
             <Link Id="E5VegHuYovBNBzDvGc5Alo" Ids="BglzkSbxgaQMepX7d16PEi,LlZ7NUtjEReL2GCoyqYTer" />
             <Link Id="U2ty6EDquTUMnocoGOd0bE" Ids="T3TXmeeIk5JMg01yYzLSr3,M4aAnbC4no6OOnthEBnq4D" />
             <Link Id="S2SmU7V5XTuLz9dByY6DUH" Ids="TRzahHlx5yiNKqr95V07Gw,Dghs4Dlh8eoNuZn0P0lYHf" />
+            <Link Id="OUa3XzGQWE3Lf4f4hf8F6z" Ids="Sx4NoOU96qiPODZDZnh2DX,FXoLuiSd4rDQYr1FcOvlHg" />
           </Patch>
         </Node>
         <Pad Id="E5o8sfAUryHMW8SrqKowoS" Bounds="151,-28,408,23" ShowValueBox="true" isIOBox="true" Value="https://developers.google.com/youtube/v3/docs/channelBanners">
