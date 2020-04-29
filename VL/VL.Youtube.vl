@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="DaPF5DNH7edPdrtGANbS9A" LanguageVersion="2019.2.0-0007-1964dfe42f" Version="0.128">
-  <NugetDependency Id="L61XUPxDbJbP873DsvMIh1" Location="VL.CoreLib" Version="2019.1.0-116" />
+<Document xmlns:p="property" Id="DaPF5DNH7edPdrtGANbS9A" LanguageVersion="2020.1.0.53" Version="0.128">
+  <NugetDependency Id="L61XUPxDbJbP873DsvMIh1" Location="VL.CoreLib" Version="2020.1.0" />
   <Patch Id="K7x3FOoZZVZOsQln1klO3m">
     <Canvas Id="Oga9iHkPLNGQdLwiUXlLBS" DefaultCategory="Youtube" CanvasType="FullCategory">
       <Pad Id="SA4UfcMZjnXPpsLNYXbCbD" Bounds="192,-185,891,85" ShowValueBox="true" isIOBox="true" Value="https://developers.google.com/youtube/v3/docs/&#xD;&#xA;https://developers.google.com/apis-explorer/#p/youtube/v3/&#xD;&#xA;https://github.com/youtube/api-samples/tree/master/dotnet&#xD;&#xA;https://github.com/LindaLawton/Google-Dotnet-Samples/tree/master/Samples/YouTube%20Data%20API/v3">
@@ -2346,7 +2346,6 @@
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
-                  <p:ValueBoxSettings />
                 </Pad>
                 <Node Bounds="611,793,85,19" Id="MsbrDKZIoFlQWXhxfU5F9A">
                   <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
@@ -2939,15 +2938,9 @@
           </p:NodeReference>
           <Patch Id="StESS5uumcdNAxL9OUvOTN">
             <Canvas Id="ENyJOKhsXOdNyU1QR5jqZE" CanvasType="Group">
-              <Pad Id="GtLVS9SUXdGNI3uHmlJmxp" SlotId="NfU6sql7KDxNWdoGh8ea4a" Bounds="273,277">
-                <p:ValueBoxSettings />
-              </Pad>
-              <Pad Id="OruQthH9rMJPpPBxgoQads" SlotId="L1tDlg8B3UeO9GcEaw5WuZ" Bounds="387,277">
-                <p:ValueBoxSettings />
-              </Pad>
-              <Pad Id="NHiE75K01T2MuTE7pFLUcZ" SlotId="G4lRDZhojogLM5dQDuZE1T" Bounds="495,277">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="GtLVS9SUXdGNI3uHmlJmxp" SlotId="NfU6sql7KDxNWdoGh8ea4a" Bounds="273,277" />
+              <Pad Id="OruQthH9rMJPpPBxgoQads" SlotId="L1tDlg8B3UeO9GcEaw5WuZ" Bounds="387,277" />
+              <Pad Id="NHiE75K01T2MuTE7pFLUcZ" SlotId="G4lRDZhojogLM5dQDuZE1T" Bounds="495,277" />
               <ControlPoint Id="HBAFvG3epwJPQx8irMTn8l" Bounds="273,217" />
               <ControlPoint Id="GzCLgi9WHDSLAdka2HLXA8" Bounds="387,218" />
               <ControlPoint Id="NzNEwKNNojFONsUJEMOsbV" Bounds="495,220" />
@@ -3066,9 +3059,7 @@
                 </p:NodeReference>
                 <Pin Id="GYBMq64olVeP5iVWeHvuOR" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="LQ1ZSUyAu5fMgQuLZxGLIA" SlotId="TnWIfO6rM04NGn8DY72jA9" Bounds="230,344">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="LQ1ZSUyAu5fMgQuLZxGLIA" SlotId="TnWIfO6rM04NGn8DY72jA9" Bounds="230,344" />
               <Node Bounds="229,399,50,26" Id="B6FPFcJ72OROLvoyI9SJaM">
                 <p:NodeReference LastCategoryFullName="Google.Apis.YouTube.v3.Data.Video" LastSymbolSource="Google.Apis.YouTube.v3.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -3261,15 +3252,11 @@
                 <Pin Id="CmkEd6BujQ3OZniTiVTbNT" Name="Id" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="SY2yv7mpKK9ONiqtNCpfnQ" Bounds="-127,445" />
-              <Pad Id="NH3YYXrAQ2hOveQluJNOZ0" SlotId="GBm0vQZ3E0FOAD2vtmDUrk" Bounds="514,385">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="NH3YYXrAQ2hOveQluJNOZ0" SlotId="GBm0vQZ3E0FOAD2vtmDUrk" Bounds="514,385" />
               <ControlPoint Id="E6B1rUumGPaMVJTIVQdicf" Bounds="474,458" />
               <ControlPoint Id="VgkuHheTzO3OaIhbz84yup" Bounds="557,459" />
               <ControlPoint Id="Dtmlj9qy6bjMx475JgDECD" Bounds="579,287" />
-              <Pad Id="SLeqfANteLFNbEi9brkHkL" SlotId="TnWIfO6rM04NGn8DY72jA9" Bounds="228,993">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="SLeqfANteLFNbEi9brkHkL" SlotId="TnWIfO6rM04NGn8DY72jA9" Bounds="228,993" />
               <ControlPoint Id="SdZaa1mNy4fPsNBSrMFryq" Bounds="228,1064" />
               <Node Bounds="333,575,57,26" Id="NHg5g9ZXBzqNxb6OCMpUen">
                 <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableList" LastSymbolSource="VL.Collections.vl">
@@ -4033,6 +4020,10 @@
                 </Pin>
                 <Pin Id="Qx7pNjbeXLpOpGB9Ir3dPQ" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="RgymgRxPBDPM1wDFNTaCz0" Name="Has Changed" Kind="OutputPin" />
+                <ControlPoint Id="T792fGl24DUL0VYHhLjKhl" Bounds="48,1141" Alignment="Top" />
+                <ControlPoint Id="TV8P4hgMjC5OI4Z0sYGNpT" Bounds="181,1384" Alignment="Bottom" />
+                <ControlPoint Id="G27rTVrbgeNOy5kK5SoFuZ" Bounds="147,1384" Alignment="Bottom" />
+                <ControlPoint Id="Av4RtO4NdkHLTN6HdiG6eN" Bounds="114,1384" Alignment="Bottom" />
                 <Patch Id="NEdYBMV9RHmNm0jFbs0mvr" ManuallySortedPins="true">
                   <Patch Id="PvIsFolft51LcdVmFkggMe" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Lc8wvjs8OTvOPStjCjUaDh" Name="Then" ManuallySortedPins="true" />
@@ -4064,7 +4055,7 @@
                     </p:NodeReference>
                     <Pin Id="AsjsmGSq0H5Ot1WGJtMAxm" Name="Input" Kind="StateInputPin" />
                     <Pin Id="TnWWbd2eFXZQdqRpKkQUKu" Name="Callback" Kind="InputPin" />
-                    <Pin Id="R8uli3MXeTOMHeDLkd0A6Z" Name="Result" Kind="OutputPin" />
+                    <Pin Id="Q4TfjCPm34bOHkqDXJ39kG" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="196,1186,80,80" Id="D6CT5TSehqPOA2UNdS186E">
                     <p:NodeReference>
@@ -4082,10 +4073,6 @@
                     </Patch>
                   </Node>
                 </Patch>
-                <ControlPoint Id="T792fGl24DUL0VYHhLjKhl" Bounds="48,1141" Alignment="Top" />
-                <ControlPoint Id="TV8P4hgMjC5OI4Z0sYGNpT" Bounds="181,1384" Alignment="Bottom" />
-                <ControlPoint Id="G27rTVrbgeNOy5kK5SoFuZ" Bounds="147,1384" Alignment="Bottom" />
-                <ControlPoint Id="Av4RtO4NdkHLTN6HdiG6eN" Bounds="114,1384" Alignment="Bottom" />
               </Node>
               <ControlPoint Id="JUhT1YpJg9AOzfGamm7wd8" Bounds="284,305" />
               <Pad Id="JAJJxT2rvhePH54l6xrU36" Bounds="30,-56,514,19" ShowValueBox="true" isIOBox="true" Value="https://developers.google.com/youtube/v3/docs/videos/insert">
@@ -4122,9 +4109,7 @@
                 <Pin Id="TvTK2l3qtbCQARwxks5Lsw" Name="Result" Kind="InputPin" />
                 <Pin Id="M6tbNUMDh9UQZDAcWFsGPh" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="Q6mo1ssHwJXLetJzk3frtx" SlotId="FHvGISXwGKXL0FRw3n995y" Bounds="-195,498">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="Q6mo1ssHwJXLetJzk3frtx" SlotId="FHvGISXwGKXL0FRw3n995y" Bounds="-195,498" />
               <Node Bounds="325,1157,38,26" Id="PdLVGCJOa1jN86xQbvavuH">
                 <p:NodeReference LastCategoryFullName="Youtube.Result" LastSymbolSource="VL.Youtube.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4139,9 +4124,7 @@
               </Node>
               <ControlPoint Id="J50tdOpRwOYLOf9I6FxQKy" Bounds="360,1217" />
               <ControlPoint Id="OWO9K2bRn21L0X3i6AzQm9" Bounds="-80,648" />
-              <Pad Id="BmuzY2QtgBvLXa2tbjKawu" SlotId="FHvGISXwGKXL0FRw3n995y" Bounds="-195,265">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="BmuzY2QtgBvLXa2tbjKawu" SlotId="FHvGISXwGKXL0FRw3n995y" Bounds="-195,265" />
             </Canvas>
             <Patch Id="B0aCP12Ses8MkB1nloQtjj" Name="Create" ParticipatingElements="PDB457lP9nqLF4lBOMN49V" />
             <Patch Id="Kfy7U3bkNL9LbrnthzDYJD" Name="Update">
@@ -12560,7 +12543,6 @@
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
-              <p:ValueBoxSettings />
             </Pad>
             <Node Bounds="325,199,85,19" Id="QrrdNB1XIgrLTuyDSifsIJ">
               <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
@@ -12601,9 +12583,7 @@
           </p:NodeReference>
           <Patch Id="GWfNbre2Rk3NMsmvkhAkh5" IsGeneric="true">
             <Canvas Id="KxYRVCQ3bEcQRSGLJHHune" CanvasType="Group">
-              <Pad Id="UvngUSEPtY5OoPtpbZzqTQ" SlotId="PoBzlG486TqLWemlrtyW5Q" Bounds="344,217">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="UvngUSEPtY5OoPtpbZzqTQ" SlotId="PoBzlG486TqLWemlrtyW5Q" Bounds="344,217" />
               <ControlPoint Id="MgTqzwpTVNVNbtUYuvL2Sk" Bounds="344,125" />
               <ControlPoint Id="REgTKuL22uKMoBok5AXHpd" Bounds="344,285" />
               <ControlPoint Id="GgPLKQT8mWNMDL3aUMHscK" Bounds="422,123" />
@@ -13489,6 +13469,10 @@
                 </Pin>
                 <Pin Id="B8QxomCzcKhNktzxskhKf2" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="M1JaHegTR0IOFAdThpFLFB" Name="Has Changed" Kind="OutputPin" />
+                <ControlPoint Id="KrWEYwDiwBiPasbX9DxS7j" Bounds="368,1455" Alignment="Top" />
+                <ControlPoint Id="C31vOOv6iu7OxqdKBicj7A" Bounds="515,1721" Alignment="Bottom" />
+                <ControlPoint Id="MkxP3xutSvGPuk244a6F0P" Bounds="474,1721" Alignment="Bottom" />
+                <ControlPoint Id="BHXEG2NUWhBLLlVKRha3oT" Bounds="433,1721" Alignment="Bottom" />
                 <Patch Id="B0VSV4P2B0kQTrfiSmE2CZ" ManuallySortedPins="true">
                   <Patch Id="GoapeHrWK1oMQjsSW4LOFY" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="QuOQzvBkiQVNx06KG8489b" Name="Then" ManuallySortedPins="true" />
@@ -13520,7 +13504,7 @@
                     </p:NodeReference>
                     <Pin Id="Ms69f97rQIkQC6orudNYnp" Name="Input" Kind="StateInputPin" />
                     <Pin Id="B5nL5R3CRlJPNemB5eonQB" Name="Callback" Kind="InputPin" />
-                    <Pin Id="QmCiMWLM0cbPSeD5jx55C9" Name="Result" Kind="OutputPin" />
+                    <Pin Id="HCrrl9fia1HO7jaSKV54GD" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="516,1501,80,80" Id="U2T5W0ZmbQdNzIjfXHcqH4">
                     <p:NodeReference>
@@ -13539,10 +13523,6 @@
                     </Patch>
                   </Node>
                 </Patch>
-                <ControlPoint Id="KrWEYwDiwBiPasbX9DxS7j" Bounds="368,1455" Alignment="Top" />
-                <ControlPoint Id="C31vOOv6iu7OxqdKBicj7A" Bounds="515,1721" Alignment="Bottom" />
-                <ControlPoint Id="MkxP3xutSvGPuk244a6F0P" Bounds="474,1721" Alignment="Bottom" />
-                <ControlPoint Id="BHXEG2NUWhBLLlVKRha3oT" Bounds="433,1721" Alignment="Bottom" />
               </Node>
               <ControlPoint Id="KFZH4P4URzpLXXpwQg56GC" Bounds="634,610" />
               <ControlPoint Id="DC1UPXVFxi9PFywVq9UXpc" Bounds="381,601" />
@@ -13580,9 +13560,7 @@
                 <Pin Id="Q8fLx3oHLxZNVAbNm0K2E6" Name="Result" Kind="InputPin" />
                 <Pin Id="BWyD3Kqhu9xOlLfJJXsHXG" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="JVVvAOKFGk7OTFRDRyHtUe" SlotId="FtlhDGBPr3sPVPJnHEcElI" Bounds="104,855">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="JVVvAOKFGk7OTFRDRyHtUe" SlotId="FtlhDGBPr3sPVPJnHEcElI" Bounds="104,855" />
               <Node Bounds="643,1456,38,26" Id="N4fIWO2CHdSPUyIyr1srJP">
                 <p:NodeReference LastCategoryFullName="Youtube.Result" LastSymbolSource="VL.Youtube.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -13596,9 +13574,7 @@
                 <Pin Id="LlY0xJvxcBNNkwxUh1db4p" Name="Result" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="PnH2OetUStkLT0Rt9Qzw9G" Bounds="678,1523" />
-              <Pad Id="N1ekUiyBT2JOd0imEwj9T8" SlotId="FtlhDGBPr3sPVPJnHEcElI" Bounds="104,648">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="N1ekUiyBT2JOd0imEwj9T8" SlotId="FtlhDGBPr3sPVPJnHEcElI" Bounds="104,648" />
             </Canvas>
             <Patch Id="F7SifQUH5bQO6EyVtqhRpw" Name="Create" ParticipatingElements="EyzG4mkNTo4NA54fldhk2M" />
             <Patch Id="S1ORkwvB1IVPOLjBGOnPEV" Name="Update">
@@ -13693,9 +13669,7 @@
           </p:NodeReference>
           <Patch Id="I0MdUO4cqmMLqBPvfEoUWs">
             <Canvas Id="TClAL3QOLsELHxXWwAq68v" CanvasType="Group">
-              <Pad Id="E3M49tDoN75O1eacuxHiPc" SlotId="TavADPfWhsAPVzF9NyJuIz" Bounds="398,264">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="E3M49tDoN75O1eacuxHiPc" SlotId="TavADPfWhsAPVzF9NyJuIz" Bounds="398,264" />
               <Node Bounds="396,114,46,26" Id="SpyaAuGy7yrPRkCDT5dSEB">
                 <p:NodeReference LastCategoryFullName="Google.Apis.YouTube.v3.Data.Caption" LastSymbolSource="Google.Apis.YouTube.v3.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -13729,7 +13703,6 @@
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="Path" />
                 </p:TypeAnnotation>
-                <p:ValueBoxSettings />
               </Pad>
               <ControlPoint Id="PvSbUJW6mTlP04dd7PtsJX" Bounds="1012,110" />
               <ControlPoint Id="DEn1Um19svHMWM5wXRvjnR" Bounds="1012,264" />
@@ -13872,9 +13845,7 @@
               <ControlPoint Id="RBT1lhRPrOBMMBy4wGLBNu" Bounds="704,440" />
               <ControlPoint Id="KbDmw70nnhIPVrEa3lz6bK" Bounds="711,535" />
               <ControlPoint Id="UJCBWQt6Y5UPN8FPdDHjX9" Bounds="760,577" />
-              <Pad Id="BWi3wtVAyNoOf9mEtpYi08" SlotId="TavADPfWhsAPVzF9NyJuIz" Bounds="576,788">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="BWi3wtVAyNoOf9mEtpYi08" SlotId="TavADPfWhsAPVzF9NyJuIz" Bounds="576,788" />
               <ControlPoint Id="IHHwJCgyaSWNhoIa2btYZv" Bounds="1236,112" />
               <Node Bounds="632,672,103,26" Id="O1ObGaUVcCLQTPtmbTgp7m">
                 <p:NodeReference LastCategoryFullName="Google.Apis.YouTube.v3.Data.CaptionSnippet" LastSymbolSource="Google.Apis.YouTube.v3.dll">
@@ -14583,6 +14554,10 @@
                 </Pin>
                 <Pin Id="Q8CTlJWVNLSQD8A9EOhtbd" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="GtmzdZzH01KNr3nHl2fTsI" Name="Has Changed" Kind="OutputPin" />
+                <ControlPoint Id="KNIF0Lzq83ANVf3SaaiZ4c" Bounds="356,1746" Alignment="Top" />
+                <ControlPoint Id="HrHlIblfbWKNXKJG1M2Kbb" Bounds="503,2015" Alignment="Bottom" />
+                <ControlPoint Id="KP7Xkj5BiQ5OrlboyYqyY9" Bounds="462,2015" Alignment="Bottom" />
+                <ControlPoint Id="QVKGYCkNKOhN5CffXqptPG" Bounds="421,2015" Alignment="Bottom" />
                 <Patch Id="LaV5QXAUD6zL0zd40RXRTS" ManuallySortedPins="true">
                   <Patch Id="EnrPBEiK5V6PYbRd8k8ZIE" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Jxjb54fh5f5N4PvANahnZ1" Name="Then" ManuallySortedPins="true" />
@@ -14614,7 +14589,7 @@
                     </p:NodeReference>
                     <Pin Id="Cqf4coQCIA7O1OKd46mpYJ" Name="Input" Kind="StateInputPin" />
                     <Pin Id="Krz9SAuoq5rMdTakZ7vIt4" Name="Callback" Kind="InputPin" />
-                    <Pin Id="CghurhLEaG9M6Jxsi2KKL5" Name="Result" Kind="OutputPin" />
+                    <Pin Id="Q3ttZAc3PRrNfGuqiM0nzk" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="504,1794,80,80" Id="U3gpCKT2mWeP3PC9ziAaYQ">
                     <p:NodeReference>
@@ -14633,10 +14608,6 @@
                     </Patch>
                   </Node>
                 </Patch>
-                <ControlPoint Id="KNIF0Lzq83ANVf3SaaiZ4c" Bounds="356,1746" Alignment="Top" />
-                <ControlPoint Id="HrHlIblfbWKNXKJG1M2Kbb" Bounds="503,2015" Alignment="Bottom" />
-                <ControlPoint Id="KP7Xkj5BiQ5OrlboyYqyY9" Bounds="462,2015" Alignment="Bottom" />
-                <ControlPoint Id="QVKGYCkNKOhN5CffXqptPG" Bounds="421,2015" Alignment="Bottom" />
               </Node>
               <ControlPoint Id="I29kR1zZJ2CMAfM2dRHfJh" Bounds="421,2097" />
               <Node Bounds="631,1740,38,26" Id="IGu5OCIAXXdPh30eS9aN5z">
@@ -14666,13 +14637,9 @@
                 <Pin Id="S9yJmJYPtwOPXcaezqHjth" Name="Result" Kind="InputPin" />
                 <Pin Id="DLrgOKrhmPeQXZ0lw6dPDl" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="KWlqyWEwZJ2NdLyMRXsI6K" SlotId="GWI5LQRM7OMLBGcpoOyCv5" Bounds="-12,1176">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="KWlqyWEwZJ2NdLyMRXsI6K" SlotId="GWI5LQRM7OMLBGcpoOyCv5" Bounds="-12,1176" />
               <ControlPoint Id="L3XldBctk0jLluxLEU2h2S" Bounds="666,1936" />
-              <Pad Id="AuVoNVOHOgEMm0N2FISE95" SlotId="GWI5LQRM7OMLBGcpoOyCv5" Bounds="-12,966">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="AuVoNVOHOgEMm0N2FISE95" SlotId="GWI5LQRM7OMLBGcpoOyCv5" Bounds="-12,966" />
             </Canvas>
             <Patch Id="VoVp6SuIliTMRV9lTvZ5Ti" Name="Create" ParticipatingElements="OzkZT3jf9PbPRcsdKRoZIK" />
             <Patch Id="BDLx64eie55Ox9oLeDk9z6" Name="Update">
@@ -22711,9 +22678,7 @@
                 <Pin Id="MSVKCwSeC4CLumj3F86AG8" Name="Value" Kind="InputPin" />
                 <Pin Id="LWj0HBe8InVLzhJCbNW9af" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="Fs8Yh8Wz65RLOaMfr4RsSr" SlotId="MMnnU9p18z0PXplFBJcjRx" Bounds="414,510">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="Fs8Yh8Wz65RLOaMfr4RsSr" SlotId="MMnnU9p18z0PXplFBJcjRx" Bounds="414,510" />
               <Node Bounds="409,921,75,26" Id="DExs6w4MEO4PyIwUC1Vu4d">
                 <p:NodeReference LastCategoryFullName="Google.Apis.YouTube.v3.Data.InvideoBranding" LastSymbolSource="Google.Apis.YouTube.v3.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -22734,17 +22699,13 @@
                 <Pin Id="U01tr4j9YOAPWOLZK8KOAG" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="RUZyARKPnGtNV71EjImLQu" Name="Timing" Kind="OutputPin" />
               </Node>
-              <Pad Id="VnFWk71B9OLQViuXdLWfUt" SlotId="NQl6BJdPWzjLpYUJtVyaVl" Bounds="410,1016">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="VnFWk71B9OLQViuXdLWfUt" SlotId="NQl6BJdPWzjLpYUJtVyaVl" Bounds="410,1016" />
               <ControlPoint Id="DkBIjm5URMoOMKoRK5x2La" Bounds="589,761" />
               <ControlPoint Id="IHE7ehIzwwkLZKB60zfXHw" Bounds="559,669" />
               <ControlPoint Id="SKznGLXGc95Mxdhw5ZBpi6" Bounds="635,787" />
               <ControlPoint Id="M4YbCC3A1ylPhffrPBZ3sz" Bounds="515,517" />
               <ControlPoint Id="SEYWj2lq5BjLhRWXwCuni3" Bounds="410,1077" />
-              <Pad Id="DYoNM3jQz2ZP3FMIoDikHI" SlotId="Htedsm8SyfHPhh2QGqsx4d" Bounds="817,369">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="DYoNM3jQz2ZP3FMIoDikHI" SlotId="Htedsm8SyfHPhh2QGqsx4d" Bounds="817,369" />
               <ControlPoint Id="BT85BNkc0pQNYzzCcpWmuT" Bounds="817,288" />
               <ControlPoint Id="KiedfQ6yyh5M98iKpCGlw7" Bounds="817,474" />
               <ControlPoint Id="M3M1uB5t33ZOk5oplTT02D" Bounds="185,1144" />
@@ -23255,6 +23216,10 @@
                 </Pin>
                 <Pin Id="K59lPEGVVzeNSKPrAdIA2O" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="USbarXdCycVPRNp915BH76" Name="Has Changed" Kind="OutputPin" />
+                <ControlPoint Id="FKdLSzSsIkKNJqJII8cXD9" Bounds="331,1387" Alignment="Top" />
+                <ControlPoint Id="EtQIW3xLoiaP6f4phK6A2o" Bounds="480,1629" Alignment="Bottom" />
+                <ControlPoint Id="My6td0i6cJVL5Zcjn94KMC" Bounds="439,1629" Alignment="Bottom" />
+                <ControlPoint Id="SsXhVgeflU5NDoIeDMyQNF" Bounds="398,1629" Alignment="Bottom" />
                 <Patch Id="FVeTgrWLvWQPTx96irZyDV" ManuallySortedPins="true">
                   <Patch Id="P2GaVhMLmyLP1Q5JW2hdbr" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="U4wVrECzJLxNQuQzEAKhzo" Name="Then" ManuallySortedPins="true" />
@@ -23286,7 +23251,7 @@
                     </p:NodeReference>
                     <Pin Id="JOMSwUd8EgIM66mpJ3Gy60" Name="Input" Kind="StateInputPin" />
                     <Pin Id="IOMfeSPP9VLOo1kRa1qJNm" Name="Callback" Kind="InputPin" />
-                    <Pin Id="K50uqFWKH2pMUoVy5WOWxI" Name="Result" Kind="OutputPin" />
+                    <Pin Id="APeCI1V3WxaNUmeOt51zDd" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="479,1441,80,80" Id="V0EKSOXMVuEOop0QgNl2ix">
                     <p:NodeReference>
@@ -23304,10 +23269,6 @@
                     </Patch>
                   </Node>
                 </Patch>
-                <ControlPoint Id="FKdLSzSsIkKNJqJII8cXD9" Bounds="331,1387" Alignment="Top" />
-                <ControlPoint Id="EtQIW3xLoiaP6f4phK6A2o" Bounds="480,1629" Alignment="Bottom" />
-                <ControlPoint Id="My6td0i6cJVL5Zcjn94KMC" Bounds="439,1629" Alignment="Bottom" />
-                <ControlPoint Id="SsXhVgeflU5NDoIeDMyQNF" Bounds="398,1629" Alignment="Bottom" />
               </Node>
               <ControlPoint Id="Ue9ZGH05pxuMJVB2xddt2a" Bounds="509,569" />
               <ControlPoint Id="QNeShxBmC6uMrzgwyvx9Hh" Bounds="398,1692" />
@@ -23356,13 +23317,9 @@
                 <Pin Id="LYKtez0IMe1P7bcc6sQHTQ" Name="Result" Kind="InputPin" />
                 <Pin Id="G7b85jYZcNWNlRcxVRUEgi" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="OdsZMc3PAeSPgDlVU8APri" SlotId="DPJw0dYszlLMZuRkBobKqO" Bounds="158,691">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="OdsZMc3PAeSPgDlVU8APri" SlotId="DPJw0dYszlLMZuRkBobKqO" Bounds="158,691" />
               <ControlPoint Id="Lil2t9BOBMbOPYj69DEMQn" Bounds="268,874" />
-              <Pad Id="Sx4NoOU96qiPODZDZnh2DX" SlotId="DPJw0dYszlLMZuRkBobKqO" Bounds="158,571">
-                <p:ValueBoxSettings />
-              </Pad>
+              <Pad Id="Sx4NoOU96qiPODZDZnh2DX" SlotId="DPJw0dYszlLMZuRkBobKqO" Bounds="158,571" />
             </Canvas>
             <Patch Id="PMKW6ILARDWNBwj07Nmitm" Name="Create" ParticipatingElements="VnRNFvxwgmiLpYkFinA8ow" />
             <Patch Id="Vv3XCB800OPL2TVQl4mfKC" Name="Update">
@@ -23804,12 +23761,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="CvIRuhLMWDCPJgy9q2MZWh" Location="Google.Apis.Auth" Version="1.38.0" />
-  <NugetDependency Id="FAi8mpi6nACNtqIlDlTp7h" Location="Google.Apis.Core" Version="1.38.0" />
-  <NugetDependency Id="MDgKBROs7kDMz2oieT2MyU" Location="Google.Apis.YouTube.v3" Version="1.38.0.1488" />
   <PlatformDependency Id="HfjMI7PMXwhN9rrxU7dw8v" Location="System.Threading.Tasks" />
   <PlatformDependency Id="R4rtoL7ozMKLn7Wb5newVa" Location="mscorlib" />
-  <NugetDependency Id="TwP86G2kmC3Mn1iDfa9Wzc" Location="VL.Skia" Version="2019.1.0-0303-g7b5625518a" />
+  <NugetDependency Id="TwP86G2kmC3Mn1iDfa9Wzc" Location="VL.Skia" Version="2020.1.0" />
   <PlatformDependency Id="HNEQvGAOmRBOvWsFp8wLF6" Location="./Dependencies/YoutubeHelper.dll" />
-  <NugetDependency Id="G9goWvcOREiOppRx3YtujA" Location="Google.Apis" Version="1.38.0" />
+  <NugetDependency Id="LhetzAeK14MQNSxke0mdO9" Location="Google.Apis" Version="1.45.0" />
+  <NugetDependency Id="AFyiQ40utTxPdbFnDd0We9" Location="Google.Apis.Auth" Version="1.45.0" />
+  <NugetDependency Id="OdC5SNBUFFvOv5lF0eLqXs" Location="Google.Apis.Core" Version="1.45.0" />
+  <NugetDependency Id="Jkyz5ec7By8MlIov5nHs7Q" Location="Google.Apis.YouTube.v3" Version="1.45.0.1929" />
 </Document>
